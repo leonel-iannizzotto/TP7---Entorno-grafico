@@ -52,7 +52,7 @@ void draw()
     text("E" + (i + 1), 539 + (i * 220), 193); // escribe E1 y E2
     
     // SALIDAS ( amarillo=HIGH - gris=LOW)
-    if (salidas[1] == 1)
+    if (salidas[i] == 1)
     {
       fill(255,255,0);
     }
